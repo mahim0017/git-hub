@@ -24,3 +24,5 @@ forEach() → শুধু loop চালায়, কোনো value return �
 
 4 =>
 Arrow function হলো JavaScript এর short syntax দিয়ে লেখা function।
+5 = >
+Template literals হলো backtick ( ) ব্যবহার করে লেখা string যেখানে ${} এর মাধ্যমে variable বা expression বসানো যায়।
