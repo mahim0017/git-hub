@@ -113,10 +113,7 @@ async function showIssueDetails(id) {
     try {
         const res = await fetch(`https://phi-lab-server.vercel.app/api/v1/lab/issue/${id}`);
         const result = await res.json();
-        // API অনেক সময় data অবজেক্টে ডাটা দেয়, তাই এটি চেক করা জরুরি
         const issue = result.data ? result.data : result;
-
-        // আপনার পপআপ স্ক্রিনশট অনুযায়ী স্টাইল
         let statusBadgeColor = issue.status.toLowerCase() === 'open' ? 'bg-green-500 text-white' : 'bg-purple-600 text-white';
         let priorityBadgeColor = issue.priority.toLowerCase() === 'high' ? 'bg-red-500 text-white' : 'bg-blue-500 text-white';
 
