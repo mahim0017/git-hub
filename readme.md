@@ -21,3 +21,6 @@ map() → প্রতিটি element এর উপর কাজ করে এ
 filter() → condition অনুযায়ী element filter করে এবং নতুন array return করে
 
 forEach() → শুধু loop চালায়, কোনো value return করে না
+
+4 =>
+Arrow function হলো JavaScript এর short syntax দিয়ে লেখা function।
